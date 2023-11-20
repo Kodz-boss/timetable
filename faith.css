@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #timetableContainer {
+    overflow-x: auto;
+  }
+  
+  #timetable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #timetable th, #timetable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #timetable th {
+    background-color: #f2f2f2;
+  }
+  

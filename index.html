@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="faith.css">
+  <title>Timetable Generator</title>
+</head>
+<body>
+
+  <div id="timetableContainer">
+    <table id="timetable"></table>
+  </div>
+
+  <form id="timetableForm">
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" required>
+
+    <label for="courseCode">Course Code:</label>
+    <input type="text" id="courseCode" required>
+
+    <label for="group">Group:</label>
+    <input type="text" id="group" required>
+
+    <label for="lecturer">Lecturer:</label>
+    <input type="text" id="lecturer" required>
+
+    <label for="venue">Venue:</label>
+    <input type="text" id="venue" required>
+
+    <button type="button" onclick="generateTimetable()">Generate Timetable</button>
+  </form>
+
+  <script src="faith.js"></script>
+</body>
+</html>
